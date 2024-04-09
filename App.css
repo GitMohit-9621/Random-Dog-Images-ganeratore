@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  width: 600px;
+  height: 600px;
+  border: 4px solid cyan;
+  background-color: rgb(52, 49, 49);
+  position: relative;
+  margin: 5% 30%;
+}
+.app h3{
+  text-align: center;
+  color: white;
+  align-items: center;
+  padding-top: 25px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.btn1{
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(23, 233, 23);
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.btn1:hover{
+  background-color: red;
+  color: white;
+  font-size: 18px;
+}
+.ramp-img{
+  width: 400px;
+  height: 300px;
+  border: 2px solid cyan;
+  position: absolute;
+  top: 20%;
+  left: 16%;
+  box-shadow: -3px -3px 5px white,5px 5px 10px white;
+  border-radius: 10px;
+}
+.ramp-img1{
+  width: 395px;
+  height: 300px;
+}
